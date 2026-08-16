@@ -22,13 +22,13 @@ model = DecisionTreeClassifier()
 model.fit(X_train, y_train)
 
 temp_str = input("Temperature:")
-temp = float(temp_str.replace('.', ''))
+temp = float(temp_str)
 lum_str = input("Luminosity:")
-lum = float(lum_str.replace('.', ''))
+lum = float(lum_str)
 rad_str = input("Radius:")
-rad = float(rad_str.replace('.', ''))
+rad = float(rad_str)
 col_str = input("Color Index:")
-col = float(col_str.replace('.', ''))
+col = float(col_str)
 
 new_star = {
 "temperature_K" : temp,
